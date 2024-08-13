@@ -1,0 +1,127 @@
+body{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://assets.nflxext.com/ffe/siteui/vlv3/16006346-87f9-4226-bc25-a1fb346a2b0c/9662d0fd-0547-4665-b887-771617268815/IN-en-20240115-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    font-family: 'Noto Sans Meetei Mayek', sans-serif;  
+}
+
+.nav{
+    height: 90px;
+}
+.logo{
+    margin: 10px 0px 0px 30px;
+    width: 167px;
+    height: 50px;
+    filter: brightness(1.2);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color:#000000bf;
+    width: 314px;
+    height: 560px;
+    padding: 60px 68px 40px 68px;
+    border-radius: 4px;
+    animation: ani 1s ease-in-out;
+}
+@keyframes ani{
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;;
+        transform: translateY(0px);
+    }
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-top: 0;
+    padding-top: 0;
+    color: white;
+    font-size: 32px;
+}
+#pass ,#email{
+    width: 290px;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 4px;
+    margin-bottom: 16px;
+    background-color: #333333;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+#btn{
+    width: 315px;
+    height: 48px;
+    background-color: #e50914;
+    color: white;
+    font-size: 16px;   
+    margin: 24px 0px 12px 0px;
+    border: none;
+    border-radius: 4px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+.rem{
+    display: flex;
+    align-items: center;
+    
+}
+#tx{
+    color: white;
+    font-size: 13px;
+    color: #b3b3b3;
+}
+
+.rem > input{
+    width: 18px;
+    height: 21px;
+}
+.link > a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    color: #b3b3b3;
+} 
+.bottem{
+    margin-top: 55px;
+    color: #b3b3b3;
+    width: 314px;
+    height: 189px;
+}
+.p1{
+    font-size: 16px;
+    font-weight: 100;
+}
+.p1 > a{
+    text-decoration: none;
+    color: white;
+}
+.p2{
+    font-size: 13px;
+    font-weight: 100;
+}
+.p2 >a{
+    text-decoration: none;
+    color: #0071eb;
+}
+a:hover{
+    text-decoration: underline;
+}
+#btn:hover{
+    background-color: #f20813;
+}
+input:focus{
+    outline-color: #333333;
+}
+input[type="checkbox"]+label{
+    padding-left: 5px;
+    border: none;
+}
